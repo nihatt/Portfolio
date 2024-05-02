@@ -23,23 +23,23 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={"https://cdn.dribbble.com/users/5863665/screenshots/16720348/media/ccf2151ef39d08c6e8e324cb65596bdf.jpg?resize=400x0"}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Galya Finance"
+              description="Galya Finance is a comprehensive financial platform designed to empower users with seamless control over their funds. With its user-friendly interface and robust features, Galya Finance offers a spectrum of services ranging from depositing to withdrawing funds, all facilitated through bank account integration."
+              ghLink=""
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKEMRWt32qgQQLD_gF01l-jQVIzA6c7LqwpEreU1PCXA&s"}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Kral Boyama"
+              description="A react native app built for children. It allows children to paint from their phone or tablet. Children can choose from a variety of colors and brush sizes to paint on the canvas. The app also allows children to save their drawings to their device. The app is available on the Google Play Store."
+              ghLink="https://github.com/nihatt/kralsakirboyama"
+              demoLink=""
             />
           </Col>
 
@@ -47,43 +47,43 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="BTC Predict"
+              description="BTC Predict is a mobile application that predicts the price of Bitcoin using machine learning. The application uses a recurrent neural network to predict the price of Bitcoin. The application also displays the current price of Bitcoin and the predicted price of Bitcoin. The application is available on the web."
+              ghLink="https://github.com/nihatt/btcpredict"
+              demoLink=""              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={"https://media.licdn.com/dms/image/D5612AQEz_EwPsFSQWw/article-cover_image-shrink_720_1280/0/1705065290862?e=2147483647&v=beta&t=FYkuo2YQCBmc9IuqkLw-2Wz2QfdSscVBlVpDTXJWHzw"}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Fit Track"
+              description="Fit Track is a mobile application that allows users to track their fitness goals. Users can create an account and log their workouts. The application also allows users to track their progress over time. The application is built using React and Firebase."
+              ghLink="https://github.com/nihatt/FitTrack"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS92sxAmnmhKLccIa0iTnfB-Alfru16MLtKSIzVZ32CAA&s"}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="NP Rental Exclusive"
+              description="
+              NP Rental Exclusive introduces a revolutionary mobile application that redefines the concept of renting. With our user-friendly platform, users gain access to a vast array of listed products, offering unparalleled convenience and flexibility in renting anything they desire. "
+              ghLink="https://github.com/nihatt/Np-Rental-Exclusive"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0mDhAgL9tf6Jyb-feYNFe870_F01wKiKNT8qbgzMnnw&s"}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Burası Bos Mu?"
+              description=" BurasiBosMu is an app designed to streamline the coffee shop experience by helping users find available desks in nearby establishments. Leveraging geolocation technology, the app identifies nearby coffee shops and provides real-time updates on desk availability. Users can interact with the app by marking desks as occupied or available, allowing others to see which spots are open. Additionally, the app may offer features such as desk reservations, ratings, and reviews for coffee shops "
+              ghLink="https://github.com/nihatt/BurasiBosMu"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
